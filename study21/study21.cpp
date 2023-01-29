@@ -14,21 +14,21 @@
 * 10、delete [] p; 这个括号不要忘了
 */
 
-
 #include <iostream>
 
 #include <stdio.h>
 #include <malloc.h>
 
-#define TEST_MODE 0
 
+#define TEST_MODE 0
+//TEST_MODE：   0：不测试 1：测试栈区 2：测试数据区 3：三区比较 
+//				4：堆栈区别 5：C内存分配实例 6：CPP内存分配实例
 
 #if TEST_MODE == 3
 
 int var_7 = 10;
 
 #endif // TEST_MODE == 3
-
 
 void C_memory(void);
 void CPP_memory(void);
@@ -44,8 +44,6 @@ public:
 	{
 		std::cout << "销毁对象成功!" << std::endl;
 	}
-
-private:
 
 };
 
