@@ -12,6 +12,7 @@
 * 8、使用C的malloc时要利用memset来初始化，然后使用free释放
 * 9、C++的new会调用对象的构造函数，也就是说new自带初始化能力，而且delete也能自动调用析构函数!
 * 10、delete [] p; 这个括号不要忘了
+* 
 */
 
 #include <iostream>
